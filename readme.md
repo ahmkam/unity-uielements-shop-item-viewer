@@ -7,3 +7,5 @@ The tool is made for artists to visualize and customize items such as in-app pur
 The tool also consists filterting, single and multiple criteria sorting (by price, name, item type etc.)
 
 Icon pack used: https://assetstore.unity.com/packages/2d/gui/icons/rpg-inventory-icons-56687
+
+![Screenshot](screenshot.png)
