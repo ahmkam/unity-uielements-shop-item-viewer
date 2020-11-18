@@ -1,0 +1,126 @@
+{
+        "itemTypes":
+        [
+            {
+                "itemTypeId": "coins",
+                "name":"Coins",
+                "category" : "Consumable"
+            },
+            {
+                "itemTypeId": "gems",
+                "name":"Gems",
+                "category" : "Consumable"
+            },
+            {
+                "itemTypeId": "tickets",
+                "name":"Tickets",
+                "category" : "Consumable"
+            }
+        ],
+        "products":
+        [
+            {
+                "entryId" : 0,
+                "productId" :"100_coins",
+                "itemTypeId": "coins",
+                "amount" : 25,
+                "name" : "Pouch of Coins",
+                "price" : 1.99
+            },
+            {
+                "entryId" : 1,
+                "productId" :"1000_coins",
+                "itemTypeId": "coins",
+                "amount" : 100,
+                "name" : "Bag of Coins",
+                "price" : 3.99
+            },
+            {
+                "entryId" : 2,
+                "productId" :"100_gems",
+                "itemTypeId": "gems",
+                "amount" : 50,
+                "name" : "Pouch of Gems",
+                "price" : 4.99
+            },
+            {
+                "entryId" : 3,
+                "productId" :"1000_gems",
+                "itemTypeId": "gems",
+                "amount" : 250,
+                "name" : "Bag of Gems",
+                "price" : 9.99
+            },
+            {
+                "entryId" : 4,
+                "productId" :"10_tickets",
+                "itemTypeId": "tickets",
+                "amount" : 15,
+                "name" : "Strip of Tickets",
+                "price" : 2.99
+            },
+            {
+                "entryId" : 5,
+                "productId" :"100_tickets",
+                "itemTypeId": "tickets",
+                "amount" : 175,
+                "name" : "Reel of Tickets",
+                "price" : 5.99
+            }
+        ],
+        "bundles":
+        [
+            {
+                "entryId" : 0,
+                "bundleId" : "bundle_1",
+                "name": "Mini coins and gems bundle",
+                "price" : 2.99,
+                "products": [
+                    "100_coins",
+                    "100_gems"
+                ]
+            },
+            {
+                "entryId" : 1,
+                "bundleId" : "bundle_2",
+                "name": "Mini coins and tickets bundle",
+                "price" : 3.99,
+                "products": [
+                    "100_coins",
+                    "10_tickets"
+                ]
+            },
+            {
+                "entryId" : 2,
+                "bundleId" : "bundle_3",
+                "name": "Mini gems and tickets bundle",
+                "price" : 4.99,
+                "products": [
+                    "100_gems",
+                    "10_tickets"
+                ]
+            },
+            {
+                "entryId" : 3,
+                "bundleId" : "bundle_4",
+                "name": "Mini coins, gems and tickets bundle",
+                "price" : 7.99,
+                "products": [
+                    "100_coins",
+                    "100_gems",
+                    "10_tickets"
+                ]
+            },
+            {
+                "entryId" : 4,
+                "bundleId" : "bundle_5",
+                "name": "Mega coins, gems and tickets bundle",
+                "price" : 19.99,
+                "products": [
+                    "1000_coins",
+                    "1000_gems",
+                    "100_tickets"
+                ]
+            }
+        ]
+}
